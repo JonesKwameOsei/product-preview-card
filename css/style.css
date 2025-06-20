@@ -63,7 +63,6 @@ body {
 	font-size: 0.75rem;
 	color: var(--color-grey);
 	margin-block: 0.5rem;
-	letter-spacing: 0.5rem;
 }
 
 .product__name {
@@ -84,7 +83,7 @@ body {
 	font-size: 1rem;
 	font-weight: var(--font-weight-normal);
 	color: var(--color-grey);
-	margin-bottom: 1.25rem;
+	margin-block-end: 1.25rem;
 }
 
 .product__pricing {
@@ -140,7 +139,7 @@ body {
 }
 
 .attribution a {
-	color: hsl(228, 45%, 44%);
+	color: var(--color-link);
 }
 
 @media (min-width: 35rem) {
@@ -190,7 +189,7 @@ body {
 		flex: 1;
 	}
 
-	#product__name-highlight {
+	.product__name-highlight {
 		display: block;
 	}
 
